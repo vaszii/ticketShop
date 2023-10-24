@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jegyvalto alkalmazas">
+    <meta name="author" content="bottyanhammer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>TicketShop</title>
+</head>
+<body>
+    <header>
+        <h1>Burgundia légitársaság</h1>
+        <!--embed használata!!!-->
+        <iframe src="https://www.youtube.com/embed/NpSfp37Xbn8" frameborder="0"></iframe>
+        <!--<video controls src="./airport.mp4">            
+        </video>-->
+    </header>
+    <main>
+        <div class="myContainer">
+            <div class="content">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Darabszám</span>
+                    <input type="number" class="form-control" placeholder="Quantity" aria-label="Username" aria-describedby="basic-addon1" min="0" value="1">
+                </div>
+    
+                <div class="input-group mb-3">
+                    
+                    <select class="form-select" id="inputGroupSelect01">                    
+                        <option value="adult">Felnőtt 350 Ft</option>
+                        <option value="student">Diák 175 Ft</option>
+                        <option value="retired">Nyugdíjas 100 Ft</option>
+                        <option selected>Jegy típusa</option>
+                    </select>
+                </div>
+    
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Fizetendő</span>
+                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" readonly>
+                </div>
+    
+                <button type="button" class="btn btn-info">Jóváhagyás</button>
+    
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
